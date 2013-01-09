@@ -1,0 +1,3 @@
+#!/bin/sh
+
+git symbolic-ref -q HEAD | sed -e 's|^refs/heads/||'
